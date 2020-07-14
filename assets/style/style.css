@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Styling the page */
+
+body {
+  background-color: #1F1F1F;
+  color: #fff;
+}
+
+.header {
+  text-align: center;
+  padding-top: 15px;
+}
+
+form.search-bar {
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.search-bar input {
+  outline: none;
+  margin-left: 5px;
+}
+
+h1 > span  {
+  color: #FF0000;
+}
+
+/* main content */
+
+.product-card {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px;
+}
+
+.card {
+  margin: 15px 0;
+  background-color: #888888;
+}
+
+.card-img{
+  width: 260px;
+  margin: 0 auto;
+}
+
+.card-text {
+  color: #1F1F1F;
+  font-weight: 500;
+}
