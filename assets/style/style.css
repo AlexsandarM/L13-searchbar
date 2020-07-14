@@ -52,3 +52,9 @@ h1 > span  {
   color: #1F1F1F;
   font-weight: 500;
 }
+
+@media (max-width:576px) {
+  form.search-bar input{
+    width: 80%;
+  }
+}
