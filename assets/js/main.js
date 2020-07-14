@@ -10,9 +10,10 @@ function searchProducts() {
             x[i].style.display = "none";
         } else {
             x[i].style.display = "inline-block";
+            x[i].classList.add('mx-auto');
         }
     };
 };
 
-let x = document.querySelectorAll('.card-box');
-console.log(x)
+// let x = document.querySelectorAll('.card-box');
+// console.log(x)
