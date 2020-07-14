@@ -9,6 +9,10 @@ body {
   color: #fff;
 }
 
+div.page {
+ max-height: 80vh;
+}
+
 .header {
   text-align: center;
   padding-top: 15px;
@@ -25,7 +29,7 @@ form.search-bar {
   margin-left: 5px;
 }
 
-h1 > span  {
+h1>span {
   color: #FF0000;
 }
 
@@ -39,12 +43,14 @@ h1 > span  {
 }
 
 .card {
-  margin: 15px 0;
+  width: 30%;
+  margin: 0 auto;
+  margin-bottom: 15px;
   background-color: #888888;
 }
 
-.card-img{
-  width: 260px;
+.card-img {
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -54,7 +60,7 @@ h1 > span  {
 }
 
 @media (max-width:576px) {
-  form.search-bar input{
+  form.search-bar input {
     width: 80%;
   }
 }
